@@ -1,0 +1,72 @@
+body {
+  background-color: rgb(172, 216, 243);
+}
+
+h1 {
+  background: #057398;
+  word-spacing: 15px;
+  margin: 0 auto;
+}
+
+button {
+  width: 200px;
+  height: 100px;
+  background: #0751d3;
+}
+
+image {
+  border-radius: 10px 100px / 120px;
+}
+
+/* Using a sans serif font and increasing the size of the characters */
+body {
+  font-family: sans-serif;
+  font-size: 20px;
+}
+
+/* Shift the heading text to the left, by default it is centered */
+table caption {
+  text-align: left;
+}
+
+/* We "collapse" the frames of adjacent cells */
+table {
+  border-collapse: collapse;
+}
+
+/* 
+  Add a border and padding to the cells, the distance from the content to the border.
+  To control the vertical position, the caption-side property is used.
+*/
+table th,
+table td {
+  padding: 10px;
+  border: 1px solid #2a2a2a;
+}
+
+button {
+  background: #5003f7;
+  font-family: cursive;
+  }
+  #title {
+    font-weight: 500;
+    color: orange;
+  }
+  a {
+    color: rgb(251, 247, 10);
+    text-decoration: none;
+  }
+  .link {
+    color: rgb(9, 194, 194);
+  }
+  .link:hover {
+    color: rgb(254, 193, 10);
+    width: 100px;
+    height: 100px;
+  }  
+  .alert {
+    --alert-text-color: rgb(246, 250, 7);
+  
+    color: var(--alert-text-color);
+  }
+  
